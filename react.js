@@ -1,8 +1,21 @@
-class HelloReact extends React.Component {    render () {      
-      return (      <div>Hello React!</div>        ) 
+import React from "react";
+class Simple extends React.Component{
+      state = {};
+      render(){
+            return(
+                  <div>
+                        <h1>Simple React App</h1>
+                  </div>
+            );
+}
+}
 
-   }}ReactDOM.render(<HelloReact/>, document.getElementById('app'))
-   //Render is a method.
+//prop short for properties.
+//functions,objects,arrays,classes....be farmiliar with them
+
+
+
+//Render is a method.
    //JSX extension
 
    //Rendering Child Nodes using the map function
